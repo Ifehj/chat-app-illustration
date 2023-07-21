@@ -238,6 +238,30 @@ article p {
   font-size: 1.3rem;
 }
 
+/* MOBILE RESPONSIVENESS */
+
+@media(min-width: 320px) and (max-width: 480px){
+	.decor {
+		height: 55%;
+	  }
+
+	  article {
+		text-align: center;
+		margin: 3rem auto 3rem;
+		width: max(50vw, 18rem);
+	  }
+
+	  article h1 {
+		letter-spacing: 1px;
+		color: rgb(62, 36, 76);
+		font-size: 2.3rem;
+	  }
+
+	  article p {
+		font-size: 1rem;
+	  }
+}
+
 /* DESKTOP RESPONSIVENESS */
 
 @media (min-width: 1000px) {
